@@ -61,6 +61,7 @@ header div{
     margin: 30px auto;
     width: 892px;
     height: 301px;
+    overflow: hidden;
     /*border: solid 2px red;*/
 }
 .maindiv1-left{
