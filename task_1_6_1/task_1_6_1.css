@@ -1,0 +1,517 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 980px;
+    height: 1386px;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+header{
+    width: 892px;
+    height: 61px;
+    margin: 0 auto;
+    border-bottom: 2px solid #938e8c;
+}
+main{
+    width: 892px;
+    height: 100px;
+    margin: 0 auto;
+}
+footer{
+    width: 892px;
+    height: 61px;
+    margin: 0 auto;
+    border-top: 1px solid #938e8c;
+}
+/*header*/
+header div{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    height: 61px;
+}
+.headerdiv1{
+    position: relative;
+    float: left;
+    background-color: #d55e5d;
+    color: white;
+}
+.headerdiv1 span{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.headerdiv2{
+    position: relative;
+    float: right;
+    color: #d55e5d;
+}
+.headerdiv2 span{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
+/*main*/
+.maindiv1{
+    position: relative;
+    box-sizing: border-box;
+    margin: 30px auto;
+    width: 892px;
+    height: 301px;
+    /*border: solid 2px red;*/
+}
+.maindiv1-left{
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    width: 641px;
+    height: 301px;
+    /*border: 2px solid greenyellow;*/
+}
+.maindiv1-left img{
+    width: 641px;
+    height: 301px;
+    position: absolute;
+    left: 0;
+}
+.maindiv1-left .greendiv{
+    position: absolute;
+    left: 0;
+    background-color: green;
+    opacity: 0.3;
+    z-index: 80;
+    width: 191px;
+    height: 301px;
+}
+.maindiv1-left .reddiv{
+    position: absolute;
+    right: 0;
+    background-color: red;
+    opacity: 0.3;
+    z-index: 80;
+    width: 191px;
+    height: 301px;
+}
+.maindiv1-right{
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    float: right;
+    width: 203px;
+    height: 301px;
+    /*border-top: 2px solid #cc8091;*/
+}
+.maindiv1-right .top{
+    margin-top: 10px;
+}
+.maindiv1-right .top .font1{
+    display: inline;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #000000;
+    text-decoration: underline;
+}
+.maindiv1-right .top .font1 p{
+    display: inline;
+    font-family: "Microsoft YaHei";
+    font-size: 34px;
+    color: #000000;
+    text-decoration: underline;
+}
+.maindiv1-right .top .font2{
+    display: inline;
+    line-height: 12px;
+    font-family: "STKaiti";
+    font-size: 12px;
+    color: #676767;
+}
+.maindiv1-right .middle{
+    font-family: "Microsoft YaHei";
+    line-height: 116px;
+    font-size: 116px;
+    color: #75b86b;
+    /*text-decoration: underline;*/
+    /*font-style: italic;*/
+}
+.maindiv1-right .bottom{
+    position: relative;
+    display: inline;
+}
+.maindiv1-right .bottom .font1{
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 55px;
+    color: #cc8091;
+}
+.maindiv1-right .bottom .font2{
+    display: inline-block;
+}
+.maindiv1-right .bottom .font2 .ft1{
+    font-family: "Microsoft YaHei";
+    line-height: 22px;
+    font-size: 21px;
+    color: #cc8091;
+}
+.maindiv1-right .bottom .font2 .ft2{
+    font-family: "Microsoft YaHei";
+    line-height: 12px;
+    font-size: 12px;
+    color: darkgray;
+}
+
+.maindiv2{
+    position: relative;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 0;
+    width: 892px;
+    height: auto;
+    /*border: solid 2px red;*/
+    overflow: auto;
+}
+.maindiv2 .left{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+    width: 232px;
+    height: auto;
+    /*border: solid 2px greenyellow;*/
+}
+.maindiv2 .middle{
+    position: relative;
+    float: left;
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+    box-sizing: border-box;
+    word-break: break-all;
+    width: 208px;
+    height: auto;
+    /*border: solid 2px greenyellow;*/
+}
+.maindiv2 .right{
+    position: relative;
+    float: left;
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+    box-sizing: border-box;
+    word-break: break-all;
+    width: 140px;
+    height: auto;
+    /*border: solid 2px greenyellow;*/
+}
+.maindiv2 .left .title-font{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    text-decoration: underline;
+    color: #418c59;
+}
+.maindiv2 .left .content-font{
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #767777;
+    line-height: 16px;
+}
+.maindiv2 .middle .title-font{
+    font-size: 16px;
+    /*font-family: "SimSun";*/
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    text-decoration: underline;
+    color: #d2994f;
+}
+.maindiv2 .middle .content-font{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #231815;
+    line-height: 16px;
+    opacity: 0.7;
+}
+.maindiv2 .right .title-font{
+    font-size: 16px;
+    /*font-family: "SimSun";*/
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    text-decoration: underline;
+    color: #cc7680;
+}
+.maindiv2 .right .content-font{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #231815;
+    line-height: 22px;
+    opacity: 0.7;
+}
+.maindiv2 .right .content-font2{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #231815;
+    line-height: 22px;
+    opacity: 0.7;
+}
+.maindiv2 .right em{
+    color: #cc7680;
+}
+.maindiv3{
+    position: relative;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 0;
+    width: 892px;
+    height: auto;
+    /*border: solid 2px red;*/
+    overflow: hidden;
+}
+.maindiv3 .left{
+    float: left;
+    box-sizing: border-box;
+    width: 415px;
+    height: auto;
+    /*border: solid 2px greenyellow;*/
+}
+.maindiv3 .left .top{
+    text-align: left;
+    width: 415px;
+    height: auto;
+    border-bottom: 2px solid #11456b;
+}
+.maindiv3 .left .top .font1{
+    font-size: 42px;
+    font-family: "SimHei";
+    font-weight: bold;
+    line-height: 43px;
+    color: #11456b;
+}
+.maindiv3 .left .top .font1 .ft1{
+    font-size: 72px;
+    font-family: "SimHei";
+    font-weight: bold;
+    line-height: 72px;
+    font-style: italic;
+    color: #f5e327;
+}
+.maindiv3 .left .top .font2{
+    font-size: 33px;
+    font-family: "SimHei";
+    font-weight: bold;
+    color: #11456b;
+}
+.maindiv3 .left .bottom{
+    text-align: left;
+}
+.maindiv3 .left .bottom .font1{
+    font-size: 12px;
+    color: #767777;
+    font-family: "SimSun";
+    line-height: 20px;
+}
+.maindiv3 .left .bottom .font1:first-letter{
+    float: left;
+    font-size: 70px;
+    color: #f5e327;
+    font-family: "Microsoft YaHei";
+    padding-right: 5px;
+    line-height: 70px;
+}
+.maindiv3 .left .bottom img{
+    float: right;
+    width: 160px;
+    height: 270px;
+    margin: 15px 10px 15px 20px;
+}
+.maindiv3 .right{
+    float: right;
+    box-sizing: border-box;
+    width: 458px;
+    height: auto;
+    /*border: solid 2px greenyellow;*/
+}
+.maindiv3 .right .top{
+    height: 275px;
+    width: 458px;
+    box-sizing: border-box;
+    position: relative;
+}
+.maindiv3 .right .top img{
+    position: absolute;
+    bottom: 0;
+    width: 458px;
+    height: 275px;
+ }
+.maindiv3 .right .top .blackdiv{
+    position: absolute;
+    bottom: 0;
+    width: 458px;
+    height: 61px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 80;
+}
+.maindiv3 .right .top{
+    height: 275px;
+    width: 458px;
+    box-sizing: border-box;
+    position: relative;
+}
+.maindiv3 .right .top .div2{
+    display: inline;
+    margin-left: 40px;
+    height: 44px;
+    border-left: 3px solid #72b16a;
+    position: absolute;
+    bottom: 10px;
+    z-index: 100;
+    padding-left: 0.8em;
+}
+.maindiv3 .right .top .font1{
+    color: white;
+    font-size: 26px;
+    font-family: "Microsoft YaHei";
+}
+.maindiv3 .right .top .font2{
+    color: #72b16a;
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Microsoft YaHei";
+    /*letter-spacing: 0.4em;*/
+    font-weight: bold;
+}
+.maindiv3 .right .bottom{
+    position: relative;
+    margin-top: 15px;
+    width: 458px;
+    height: 318px;
+    background-color: #eeeed6;
+    opacity: 0.6;
+    box-sizing: border-box;
+    /*border: 2px solid red;*/
+}
+.maindiv3 .right .bottom .top1{
+    width: 459px;
+    height: 158px;
+    overflow: hidden;
+    /*border: 2px solid red;*/
+}
+.maindiv3 .right .bottom ul{
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family: SimSun;
+    text-align: left;
+    line-height: 36px;
+    vertical-align: middle;
+}
+.maindiv3 .right .bottom ul em{
+    font-size: 12px;
+    font-family: "SimSun";
+    font-style: italic;
+    text-align: right;
+    line-height: 36px;
+    color: #5a5b5b;
+}
+.maindiv3 .right .bottom .reddiv{
+    position: absolute;
+    display: inline;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    height: 160px;
+    background-color: #d55e5d;
+}
+.maindiv3 .right .bottom .reddiv .left{
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    /*border-right: 2px solid white;*/
+    position: absolute;
+    display: inline;
+    float: left;
+    width: auto;
+    padding: 0 10px 0 10px;
+    bottom: 16px;
+    /*border: 2px solid red;*/
+}
+.maindiv3 .right .bottom .reddiv .right{
+    display: inline;
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+    float: left;
+    width: auto;
+    text-align: left;
+    padding: 10px;
+    border-left: 2px solid white
+}
+.maindiv3 .right .bottom .reddiv .right .font1{
+    font-size: 21px;
+    color: white;
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+    font-family: "SimHei";
+}
+.maindiv3 .right .bottom .reddiv .right .font2{
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    word-spacing: 6px;
+    font-family: "SimHei";
+}
+.maindiv3 .right .bottom .bottom2 .right2 div .first-last1{
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "SimHei";
+    position: absolute;
+    top: 0;
+    left: -42px;
+}
+.maindiv3 .right .bottom .bottom2 .right2 div .first-last2{
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "SimHei";
+    position: absolute;
+    right: -30px;
+    bottom: -20px;
+}
+.maindiv3 .right .bottom .bottom2 .right2{
+    font-size: 14px;
+    word-spacing: 6px;
+    font-family: "SimHei";
+    color: #5a5b5b;
+    float: right;
+    position: absolute;
+    display: inline;
+    text-align: center;
+    right: -10px;
+    bottom: 0;
+    width: 199px;
+    height: 160px;
+}
+.maindiv3 .right .bottom .bottom2 .right2 div p{
+    text-indent: 3.5em;
+    text-align: left;
+    font-style: italic;
+}
+
+/*footer*/
+footer .footerdiv{
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    margin-right: 0;
+    font-size: 12px;
+    font-family: "SimHei";
+    color: #d45d5c;
+}
